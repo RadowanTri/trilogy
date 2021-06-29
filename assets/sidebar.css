@@ -1,0 +1,133 @@
+
+
+/*
+==========================================
+   Seeting-area  CSS
+==========================================
+*/
+  .setting-grid{
+    display: grid;
+    grid-gap: 2vw;
+    grid-template-columns: 24% 50% 24%;
+    padding-bottom: 20px;
+  }
+  .setting{
+    position: relative;
+  }
+  .setting-hero{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #0000005c;
+  }
+  .setting-left-content{
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0px;
+
+  }
+  .d-setting-flex{
+    display:flex;
+    align-items: center;
+    padding: 10px 15px;
+    transition: .3s;
+    color: #050505;
+    font-size: 16px;
+
+  }
+  .d-setting-flex h4 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.setting-hero h2 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+  .d-setting-flex:hover,
+  .d-setting-flex .active{
+    background: #2e3192;
+    border-radius: 5px;
+    color: #fff;
+  }
+  .d-setting-flex i:hover{
+    color: #fff;
+  }
+  .d-setting-flex i{
+    padding-right: 15px;
+    line-height: 1.5;
+    width: 35px;
+  }
+  .box-shadow-left {
+      box-shadow: rgb(0 0 0 / 13%) 0px 1.6px 7px 0px, rgb(0 0 0 / 11%) 0px 0.3px 0.9px 0px;
+  }  
+ ul.setting-right-content li a:hover{
+    background: rgb(245, 246, 247);
+    text-decoration: none;
+}
+ul.setting-right-content li a {
+    display: grid;
+    grid-template-columns: 1.5fr 3.5fr .5fr;
+    grid-column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+}
+ul.setting-right-content li{
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0px;
+}
+ul.setting-right-content li a strong{
+  color:#222223; 
+  font-size: 16px;
+
+}
+ul.setting-right-content li a h3 {
+    font-size: 20px;
+    color: #1c1e21;
+}
+ul.setting-right-content li a .edit i {
+    visibility: hidden;
+    transition:all 0.1s ease 0s;
+}
+ul.setting-right-content li a .edit:hover i {
+    visibility: visible;
+}
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+
+  .setting-grid{
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: 24% 50% 24%;
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+
+  
+
+  ul#bars span {
+    display: none;
+  }
+  .setting-grid{
+    grid-template-columns: 100%;
+    padding-bottom: 20px;
+  }
+
+
+
+
+
+}
+@media only screen and (max-width: 580px) {
+  
+  .system-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+}
