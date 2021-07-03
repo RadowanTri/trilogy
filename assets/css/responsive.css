@@ -93,4 +93,33 @@
 	h4 {
 		padding-bottom: 10px;
 	}
+	.request-profile {
+		display: flex  !important;
+	}
+	.suggest-friend .request-btn {
+		width: 150px;
+	}
+}
+@media only screen and (max-width: 475px) {
+	.headerLogo form.lg-search {
+		display:none;
+	}
+	.headerLogo form.sm-search{
+		display: block !important;
+	}
+	.d-109 {
+		display: block;
+	} 
+	.post-left p,
+	.post-right p {
+		padding-right: 10px;
+	}
+	.post-left p a,
+	.post-right p a{
+		font-size: 13px;
+	}
+	.profile {
+		display: flex;
+		justify-content: center;
+	}
 }
