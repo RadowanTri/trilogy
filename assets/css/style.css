@@ -1157,3 +1157,32 @@ p {
 .comment-box .form-control:focus {
   border: 1px solid #ddd !important;
 }
+.agree p{
+  line-height: 1;
+}
+.agree {
+  position: relative;
+  display: inline-block;
+}
+
+.agree .overly {
+  position: absolute;
+  top: -30px;
+  z-index: 1;
+  opacity: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding:4px 10px;
+}
+.agree:hover .overly {
+  visibility: visible;
+  opacity: 1;
+}
+.agree:hover .overly a{
+    color:#036ee2;
+}
+.agree:hover .overly i{
+  color:#036ee2;
+  padding:3px;
+}
