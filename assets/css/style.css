@@ -126,7 +126,8 @@ p {
 .text-white{
   color: #fff;
 }
-*Defalt Margin and padding*/ .mt-10 {
+/*Defalt Margin and padding*/ 
+.mt-10 {
   margin-top: 10px;
 }
 
@@ -1185,4 +1186,39 @@ p {
 .agree:hover .overly i{
   color:#036ee2;
   padding:3px;
+}
+
+.box{
+  width: 320px;
+  min-height: 450px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 1px #0404040d;
+  background: #fff;
+  padding:10px;
+}
+.box-item a{
+  color: #000;
+}
+.box-item a span{
+  display: block;
+}
+.box-img img {
+  max-width: 25px;
+  margin-right: 15px;
+}
+
+
+.box-item span {
+  font-size: 16px;
+  font-weight: 300;
+}
+.box-item h6 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.box-item:hover {
+  background: #ddd;
+}
+.box-item{
+  padding: 5px;
 }
