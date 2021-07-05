@@ -45,8 +45,11 @@ $(document).ready(function($){
 
 });
 
-
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 // portfolio popup image
 $('.image-link').magnificPopup({type:'image'});
 }(jQuery));
+
