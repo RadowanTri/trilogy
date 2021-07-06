@@ -49,6 +49,23 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
+ // Magnific popup
+       $('.videos-icon').magnificPopup({
+        type:'iframe',
+        iframe: {
+          patterns: {
+            youtube: {
+              index: 'youtube.com/', 
+
+              id: 'v=', 
+              src: 'http://www.youtube.com/embed/%id%?autoplay=1' 
+            }
+
+          },
+          srcAction: 'iframe_src',
+        }
+      });
+
 // portfolio popup image
 $('.image-link').magnificPopup({type:'image'});
 }(jQuery));

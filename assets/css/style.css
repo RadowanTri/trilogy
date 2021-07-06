@@ -103,7 +103,7 @@ p {
   background: #3399FF;
   text-align: center;
   outline: none;
-  margin-top: 1.4rem;
+  margin-top: 1rem;
   font-size: 16px;
   border: none;
   transition: .3s;
@@ -1227,4 +1227,7 @@ p {
 }
 .box-item{
   padding: 5px;
+}
+.goTop{
+  display: none !important;
 }

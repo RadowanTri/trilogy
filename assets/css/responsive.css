@@ -117,8 +117,13 @@
 	.post-right p a{
 		font-size: 13px;
 	}
-	.profile {
+	.right-bar .profile {
 		display: flex;
 		justify-content: center;
 	}
+	.btn {
+		margin-top: 1rem;
+		font-size: 14px;
+	}
+	
 }

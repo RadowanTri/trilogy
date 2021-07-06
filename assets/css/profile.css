@@ -371,17 +371,49 @@ ul.dropdown-menu.dropdown-menu-right.show {
    .profile-header-info .btn {
       margin-top: 5px;
    }
+   .border-md-top{
+       border-top: 1px solid #ddd;
+   }
+   .col-md-8.border-md-top.border-left {
+       padding-top: 15px;
+       border-left: none !important;
+   }
+  
     
 }
 @media only screen and (min-width:320px) and (max-width:576px) {
     .profile-header .profile-header-tab {
         padding: 0 0 0 5px;
     }
-    .profile-header .profile-header-tab>li>a {
-        padding: 8px 8px;
-    }
         .profile-header .profile-header-tab>li>a {
-            font-size: 14px;
+            font-size: 13px;
             font-weight: 500;
+             padding: 8px 5px;
+        }
+        .profile-header-info h4 {
+            font-size: 15px;
+        }
+
+        .profile-content {
+            padding: 14px 5px;
+            border-radius: 4px;
+        }
+
+        .tab-pane h4 {
+            font-size: 16px;
+        }
+        .profile-header-img {
+            width: 70px;
+            height: 70px;
+        }
+        
+        .profile-header-img+.profile-header-info {
+            margin-left: 80px;
+        }
+        .profile-header-info p {
+            font-size: 14px;
+        }
+        .about-history {
+            align-items: baseline;
         }
 }
