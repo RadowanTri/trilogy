@@ -3,6 +3,9 @@ $(document).ready(function($){
 //==============================
 // smooth scroll
 //==============================
+  $("[data-background").each(function(){
+    $(this).css("background-image", "url(" + $(this).attr("data-background")+")")
+ })
 
 
   $(window).on('scroll', function () {

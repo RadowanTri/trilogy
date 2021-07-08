@@ -126,6 +126,12 @@ p {
 .text-white{
   color: #fff;
 }
+.f-right{
+  float: right;
+}
+.f-left{
+  float: left;
+}
 /*Defalt Margin and padding*/ 
 .mt-10 {
   margin-top: 10px;
