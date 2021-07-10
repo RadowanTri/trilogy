@@ -71,5 +71,6 @@ $(function () {
 
 // portfolio popup image
 $('.image-link').magnificPopup({type:'image'});
+
 }(jQuery));
 
