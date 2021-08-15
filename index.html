@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<title>Time research & innovation</title>
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<!--=== Reset Css ===-->
+	<link rel="stylesheet" href="assets/css/normalize.css" />
+	<!--=== Font family Css ===-->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap"
+		rel="stylesheet" />
+
+	<!--=== Fontawesome icon 5.9 ===-->
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+	<!--=== Bootstrap 4===-->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<!--=== Main Css ===-->
+	<link rel="stylesheet" type="text/css" href="assets/sidebar.css">
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="assets/css/header.css" />
+
+	<!--=== Responsive Css ===-->
+	<link rel="stylesheet" href="assets/css/responsive.css" />
+	<script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+
+
+</head>
+
+<body>
+	<div class="header-sticky">
+	<nav>
+		<div class="nav-left">
+			<img src="assets/img/logo-top.png" alt="" class="logo">
+			<div class="search-box">
+				<i class="fas fa-search"></i>
+				<input type="text" placeholder="search">
+			</div>
+			
+
+		</div>
+		<div class="nav-right">
+			<ul class="nt-area">
+				<li>
+					<a href="#">
+						<div class="item home" onclick="leftMenuToggle()">
+							<i class="fas fa-home"></i>
+							<span>Home</span>
+							
+						</div>
+					</a>
+					<div class=" left-menu-content">
+						<div class="left-sidebar">
+							<div class="imp-link">
+								<a href="#">
+									<img src="assets/img/news.png" alt="">
+									Latest News
+								</a>
+								<a href="#">
+									<img src="assets/img/friends.png" alt="">
+									Friends
+								</a>
+								<a href="#">
+									<img src="assets/img/group.png" alt="">
+									Group
+								</a>
+								<a href="#">
+									<img src="assets/img/marketplace.png" alt="">
+									Marketplace
+								</a>
+								<a href="#">
+									<img src="assets/img/watch.png" alt="">
+									Watch
+								</a>
+								<a href="#">
+									See More
+								</a>
+							</div>
+							<div class="shortcut-links">
+								<p>Your Shortcuts</p>
+								<a href="#">
+									<img src="assets/img/shortcut-1.png" alt="">
+									Web Developer
+								</a>
+								<a href="#">
+									<img src="assets/img/shortcut-2.png" alt="">
+									Web Design Course
+								</a>
+								<a href="#">
+									<img src="assets/img/shortcut-3.png" alt="">
+									Full Stack Developer
+								</a>
+								<a href="#">
+									<img src="assets/img/shortcut-4.png" alt="">
+									Website Experts
+								</a>
+							</div>
+
+						</div>
+						<div class="d-109 mt-30">
+							<div class="spnsor-wrapper">
+								<h4 class="mb-15 mt-10">Sponsor</h4>
+								<div class="spnsor">
+									<a href="#" class="d-flex align-items-center">
+										<img src="assets/img/spotlight.png" alt="">
+										<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+									</a>
+								</div>
+								<div class="spnsor">
+									<a href="#" class="d-flex align-items-center">
+										<img src="assets/img/spotlight.png" alt="">
+										<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+									</a>
+								</div>
+							</div>
+							<div class="friend-request mt-20">
+								<div class="d-flex justify-content-between p-10">
+									<h5>Friend Request</h5>
+									<a class="see-all" href="#">See All</a>
+								</div>
+								<div class="d-flex align-items-center request-profile">
+									<div>
+										<div class="profile-img mr-10">
+											<img src="assets/img/profile-pic.png" alt="">
+										</div>
+									</div>
+									<div class="flex-1">
+										<div class="d-flex justify-content-between">
+											<p>Radowan Bhuiyan</p>
+											<p>4 Day</p>
+										</div>
+										<div class="request-btn">
+											<ul class="btn-wrapper">
+												<li><button class="btn" type="submit">Confirm</button></li>
+												<li><button class="btn remove-btn" type="submit">Remove</button></li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="suggest-friend friend-request mt-20">
+								<div class="d-flex justify-content-between p-10">
+									<h5>Suggest Friend</h5>
+									<a class="see-all" href="#">See All</a>
+								</div>
+								<div class="d-flex align-items-center justify-content-between  request-profile">
+									<div>
+
+										<div class="d-flex align-items-center">
+											<div class="profile-img mr-10">
+												<img src="assets/img/profile-pic.png" alt="">
+											</div>
+											<div>
+												<p>Radowan Bhuiyan</p>
+												<p>4 Day</p>
+											</div>
+
+										</div>
+									</div>
+									<div>
+
+										<div class="request-btn">
+											<ul class="btn-wrapper">
+												<li><button class="btn" type="submit">Suggest Friend</button></li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="group mt-20">
+								<div class="d-flex justify-content-between p-10">
+									<h5>Group Conversion</h5>
+								</div>
+								<div class="d-flex align-items-center justify-content-between  request-profile">
+									<div>
+
+										<div class="d-flex align-items-center">
+											<div class="profile-img mr-10">
+												<img src="assets/img/profile-pic.png" alt="">
+											</div>
+											<div>
+												<p>Radowan Bhuiyan</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</li>
+
+				<li>
+					<a href="#">
+						<div class="item user"><i class="fas fa-users"></i><span>User</span></div>
+
+					</a>
+				</li>
+
+
+				<li>
+					<a href="#">
+						<div class="item fb"><i class="fab fa-facebook-messenger"></i><span>Messenger</span></div>
+					</a>
+
+				</li>
+				<li>
+					<a href="#">
+						<div class="item fb"><i class="fas fa-tv"></i><span>Watch</span></div>
+					</a>
+
+				</li>
+				<li>
+					<a href="#">
+						<div class="item nt">
+							<i class="fas fa-bell"></i>
+							<span>Notification</span>
+						</div>
+
+					</a>
+				</li>
+			</ul>
+
+			
+
+			<div class="nav-user-icon online" onclick="settingsMenuToggle()">
+				<img src="assets/img/profile-pic.png" alt="">
+
+			</div>
+
+		</div>
+		<!---------------- setting ---------------->
+		<div class="setting-menu">
+			<div id="dark-btn">
+				<span></span>
+			</div>
+			<div class="setting-menu-inner">
+				<div class="user-profile">
+					<div>
+						<img src="assets/img/profile-pic.png" alt="">
+					</div>
+					<div>
+						<p>Radowan Bhuiyan</p>
+						<a href="#">See your profile</a>
+					</div>
+				</div>
+				<hr>
+				<div class="user-profile">
+					<div>
+						<img src="assets/img/feedback.png" alt="">
+					</div>
+					<div>
+						<p>Give feedback</p>
+						<a href="#">Help us to improve the new design</a>
+					</div>
+				</div>
+				<hr>
+				<div class="setting-links">
+					<img src="assets/img/setting.png" alt="" class="setting-icon">
+					<a href="#">Setting & Privacy <img src="assets/img/arrow.png" width="10px" alt=""></a>
+				</div>
+				<div class="setting-links">
+					<img src="assets/img/help.png" alt="" class="setting-icon">
+					<a href="#">Help & Supports <img src="assets/img/arrow.png" width="10px" alt=""></a>
+				</div>
+				<div class="setting-links">
+					<img src="assets/img/display.png" alt="" class="setting-icon">
+					<a href="#">Display & Accssibility <img src="assets/img/arrow.png" width="10px" alt=""></a>
+				</div>
+				<div class="setting-links">
+					<img src="assets/img/logout.png" alt="" class="setting-icon">
+					<a href="#">Logout<img src="assets/img/arrow.png" width="10px" alt=""></a>
+				</div>
+
+			</div>
+		</div>
+	</nav>
+	</div>
+
+	<div class="p-p">
+		
+
+		<div class="pt-30 pb-20">
+			<div class="main">
+				<div class="grid-3 grid-lg-2 left-content">
+					<div class="left-sidebar">
+						<div class="imp-link">
+							<a href="#">
+								<img src="assets/img/news.png" alt="">
+								Latest News
+							</a>
+							<a href="#">
+								<img src="assets/img/friends.png" alt="">
+								Friends
+							</a>
+							<a href="#">
+								<img src="assets/img/group.png" alt="">
+								Group
+							</a>
+							<a href="#">
+								<img src="assets/img/marketplace.png" alt="">
+								Marketplace
+							</a>
+							<a href="#">
+								<img src="assets/img/watch.png" alt="">
+								Watch
+							</a>
+							<a href="#">
+								See More
+							</a>
+						</div>
+						<div class="shortcut-links">
+							<p>Your Shortcuts</p>
+							<a href="#">
+								<img src="assets/img/shortcut-1.png" alt="">
+								Web Developer
+							</a>
+							<a href="#">
+								<img src="assets/img/shortcut-2.png" alt="">
+								Web Design Course
+							</a>
+							<a href="#">
+								<img src="assets/img/shortcut-3.png" alt="">
+								Full Stack Developer
+							</a>
+							<a href="#">
+								<img src="assets/img/shortcut-4.png" alt="">
+								Website Experts
+							</a>
+						</div>
+
+					</div>
+					<div class="d-109 mt-30">
+						<div class="spnsor-wrapper">
+							<h4 class="mb-15 mt-10">Sponsor</h4>
+							<div class="spnsor">
+								<a href="#" class="d-flex align-items-center">
+									<img src="assets/img/spotlight.png" alt="">
+									<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+								</a>
+							</div>
+							<div class="spnsor">
+								<a href="#" class="d-flex align-items-center">
+									<img src="assets/img/spotlight.png" alt="">
+									<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+								</a>
+							</div>
+						</div>
+						<div class="friend-request mt-20">
+							<div class="d-flex justify-content-between p-10">
+								<h5>Friend Request</h5>
+								<a class="see-all" href="#">See All</a>
+							</div>
+							<div class="d-flex align-items-center request-profile">
+								<div>
+									<div class="profile-img mr-10">
+										<img src="assets/img/profile-pic.png" alt="">
+									</div>
+								</div>
+								<div class="flex-1">
+									<div class="d-flex justify-content-between">
+										<p>Radowan Bhuiyan</p>
+										<p>4 Day</p>
+									</div>
+									<div class="request-btn">
+										<ul class="btn-wrapper">
+											<li><button class="btn" type="submit">Confirm</button></li>
+											<li><button class="btn remove-btn" type="submit">Remove</button></li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="suggest-friend friend-request mt-20">
+							<div class="d-flex justify-content-between p-10">
+								<h5>Suggest Friend</h5>
+								<a class="see-all" href="#">See All</a>
+							</div>
+							<div class="d-flex align-items-center justify-content-between  request-profile">
+								<div>
+
+									<div class="d-flex align-items-center">
+										<div class="profile-img mr-10">
+											<img src="assets/img/profile-pic.png" alt="">
+										</div>
+										<div>
+											<p>Radowan Bhuiyan</p>
+											<p>4 Day</p>
+										</div>
+
+									</div>
+								</div>
+								<div>
+
+									<div class="request-btn">
+										<ul class="btn-wrapper">
+											<li><button class="btn" type="submit">Suggest Friend</button></li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="group mt-20">
+							<div class="d-flex justify-content-between p-10">
+								<h5>Group Conversion</h5>
+							</div>
+							<div class="d-flex align-items-center justify-content-between  request-profile">
+								<div>
+
+									<div class="d-flex align-items-center">
+										<div class="profile-img mr-10">
+											<img src="assets/img/profile-pic.png" alt="">
+										</div>
+										<div>
+											<p>Radowan Bhuiyan</p>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="grid-6 grid-lg-6 main-content">
+					<div class=" box_shadow  p-20">
+						<div class="batch-learn d-md-flex justify-content-between">
+							<h4>Patch-based Deep Learning</h4>
+							<a href="#">
+								<img class="mr-2" src="assets/img/discus.png" alt="">
+								<span>Discussion topic: 20</span>
+
+							</a>
+
+						</div>
+					</div>
+					<div class="mt-20 box_shadow  p-20">
+						<div class="profile">
+							<div class="profile-top d-block d-lg-flex justify-content-between align-items-center">
+								<div class="d-flex align-items-center">
+									<div class="profile-img mr-10">
+										<img src="assets/img/profile-pic.png" alt="">
+									</div>
+									<div>
+										<h5>Mike Dawson</h5>
+										<p>2 hours ago</p>
+									</div>
+
+
+								</div>
+								<div>
+									<p class="star">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+										<span class="rating">4.8</span>
+										<span class="review">(1045 Reviews)</span>
+									</p>
+								</div>
+							</div>
+
+						</div>
+						<div class="profile-content-wrapper">
+							<div class="pb-15 pt-20">
+								<img src="assets/img/covid.png" alt="" width="100%">
+							</div>
+							<div>
+								<p>A patch-based deep neural network model is proposed by the authors, which can be trained
+									on a small or limited
+									dataset but with high performance. The authors first investigated various imaging
+									features of CXR, such as
+									lung area intensity distribution and cardiothoracic ratio. The investigation
+									demonstrates that there are
+									significant differences among the patch wise intensity distribution. Therefore, based on
+									these findings, a
+									novel patch-based deep neural network is proposed, and final classification results are
+									obtained through
+									majority voting from inference results. Since the patch training is included</p>
+							</div>
+
+						</div>
+						<div>
+							<div class="post-wrapper pt-15 ">
+								<div class="post-left">
+									<div class="agree">
+										<p>
+										<a href="#">
+											<span>Agree: </span>
+											<img src="assets/img/like.png" alt="">
+											
+										</a>
+										
+										</p>
+										<p class="overly">
+											<a href="#"><i class="fas fa-thumbs-up"></i></a>
+											<a href="#"><i class="fas fa-thumbs-up"></i></a>
+											<a href="#"><i class="fas fa-thumbs-up"></i></a>
+											<a href="#"><i class="fas fa-thumbs-up"></i></a>
+											<a href="#"><i class="fas fa-thumbs-up"></i></a>
+										</p>
+
+										
+									</div>
+									<div class="agree">
+										<p>
+											<a href="#">
+												<span>Disagree: </span>
+												<img src="assets/img/unlike.png" alt="">
+
+											</a>
+
+										</p>
+										<p class="overly">
+											<a href="#"><i class="fas fa-thumbs-up"></i></a>
+											<a href="#"><i class="fas fa-thumbs-up"></i></a>
+										</p>
+
+
+									</div>
+					
+									<p>
+										<a href="">
+											<span>Vote: </span>
+											<i class="far fa-star"></i>
+											<i class="far fa-star"></i>
+											<i class="far fa-star"></i>
+											<i class="far fa-star"></i>
+											<i class="far fa-star"></i>
+										</a>
+									</p>
+								</div>
+								<div class="post-right">
+									<p>
+										<a class="" data-toggle="collapse" href="#collapse-ask1" role="button" aria-expanded="false"
+											aria-controls="collapse-ask1">
+											<img src="assets/img/ask.png" alt="">
+											<span>Ask </span>
+										</a>
+										
+									</p>
+									
+									<p>
+										<a href="">
+
+											<img src="assets/img/discussion.png" alt="">
+											<span>Discuss it </span>
+										</a>
+									</p>
+									<p>
+										<a href="">
+
+											<img src="assets/img/share.png" alt="">
+											<span>Share</span>
+										</a>
+									</p>
+								</div>
+
+							</div>
+							<div class="pt-3 comment-box">
+								<div class="collapse" id="collapse-ask1">
+									<form action="#">
+										<textarea class="form-control" cols="2" rows="2"></textarea>
+									</form>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="mt-20 box_shadow  p-20">
+						<div class="profile">
+							<div class="profile-top d-block d-lg-flex justify-content-between align-items-center">
+								<div class="d-flex align-items-center">
+									<div class="profile-img mr-10">
+										<img src="assets/img/profile-pic.png" alt="">
+									</div>
+									<div>
+										<h5>Mike Dawson</h5>
+										<p>2 hours ago</p>
+									</div>
+
+
+								</div>
+								<div>
+									<p class="star">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+										<span class="rating">4.8</span>
+										<span class="review">(1045 Reviews)</span>
+									</p>
+								</div>
+							</div>
+
+						</div>
+						<div class="profile-content-wrapper">
+							<div class="pb-15 pt-20">
+								<img src="assets/img/covid.png" alt="" width="100%">
+							</div>
+							<div>
+								<p>A patch-based deep neural network model is proposed by the authors, which can be trained
+									on a small
+									or limited
+									dataset but with high performance. The authors first investigated various imaging
+									features of CXR,
+									such as
+									lung area intensity distribution and cardiothoracic ratio. The investigation
+									demonstrates that there
+									are
+									significant differences among the patch wise intensity distribution. Therefore, based on
+									these
+									findings, a
+									novel patch-based deep neural network is proposed, and final classification results are
+									obtained
+									through
+									majority voting from inference results. Since the patch training is included</p>
+							</div>
+
+						</div>
+						<div class="post-wrapper pt-15 ">
+							<div class="post-left">
+								<div class="agree">
+									<p>
+										<a href="#">
+											<span>Agree: </span>
+											<img src="assets/img/like.png" alt="">
+
+										</a>
+
+									</p>
+									<p class="overly">
+										<a href="#"><i class="fas fa-thumbs-up"></i></a>
+										<a href="#"><i class="fas fa-thumbs-up"></i></a>
+										<a href="#"><i class="fas fa-thumbs-up"></i></a>
+									</p>
+
+
+								</div>
+								<div class="agree">
+									<p>
+										<a href="#">
+											<span>Disagree: </span>
+											<img src="assets/img/unlike.png" alt="">
+
+										</a>
+
+									</p>
+									<p class="overly">
+										<a href="#"><i class="fas fa-thumbs-up"></i></a>
+										<a href="#"><i class="fas fa-thumbs-up"></i></a>
+										<a href="#"><i class="fas fa-thumbs-up"></i></a>
+										<a href="#"><i class="fas fa-thumbs-up"></i></a>
+									</p>
+
+
+								</div>
+
+								<p>
+									<a href="">
+										<span>Vote: </span>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+									</a>
+								</p>
+							</div>
+							<div class="post-right">
+								<p>
+									<a href="#">
+
+										<img src="assets/img/ask.png" alt="">
+										<span>Ask Question </span>
+									</a>
+								</p>
+								<p>
+									<a href="#">
+
+										<img src="assets/img/discussion.png" alt="">
+										<span>Discuss it </span>
+									</a>
+								</p>
+								<p>
+									<a href="#">
+
+										<img src="assets/img/share.png" alt="">
+										<span>Share</span>
+									</a>
+								</p>
+							</div>
+
+						</div>
+
+					</div>
+					<div class="mt-20 box_shadow  p-20">
+						<div class="profile">
+							<div class="profile-top d-block d-lg-flex justify-content-between align-items-center">
+								<div class="d-flex align-items-center">
+									<div class="profile-img mr-10">
+										<img src="assets/img/profile-pic.png" alt="">
+									</div>
+									<div>
+										<h5>Mike Dawson</h5>
+										<p>2 hours ago</p>
+									</div>
+
+
+								</div>
+								<div>
+									<p class="star">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+										<span class="rating">4.8</span>
+										<span class="review">(1045 Reviews)</span>
+									</p>
+								</div>
+							</div>
+
+						</div>
+						<div class="profile-content-wrapper">
+							<div class="pb-15 pt-20">
+								<img src="assets/img/covid.png" alt="" width="100%">
+							</div>
+							<div>
+								<p>A patch-based deep neural network model is proposed by the authors, which can be trained
+									on a small
+									or limited
+									dataset but with high performance. The authors first investigated various imaging
+									features of CXR,
+									such as
+									lung area intensity distribution and cardiothoracic ratio. The investigation
+									demonstrates that there
+									are
+									significant differences among the patch wise intensity distribution. Therefore, based on
+									these
+									findings, a
+									novel patch-based deep neural network is proposed, and final classification results are
+									obtained
+									through
+									majority voting from inference results. Since the patch training is included</p>
+							</div>
+
+						</div>
+						<div class="post-wrapper pt-15 ">
+							<div class="post-left">
+								<p>
+									<a href="#">
+										<span>Agree: </span>
+										<img src="assets/img/like.png" alt="">
+									</a>
+								</p>
+								<p>
+									<a href="#">
+										<span>Agree: </span>
+										<img src="assets/img/unlike.png" alt="">
+									</a>
+								</p>
+								<p>
+									<a href="#">
+										<span>Vote: </span>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+									</a>
+								</p>
+							</div>
+							<div class="post-right">
+								<p>
+									<a href="#">
+										<img src="assets/img/ask.png" alt="">
+										<span>Ask Question </span>
+									</a>
+								</p>
+								<p>
+									<a href="#">
+										<img src="assets/img/discussion.png" alt="">
+										<span>Discuss it </span>
+									</a>
+								</p>
+								<p>
+									<a href="#">
+
+										<img src="assets/img/share.png" alt="">
+										<span>Share</span>
+									</a>
+								</p>
+							</div>
+
+
+						</div>
+
+					</div>
+
+
+				</div>
+				<div class="grid-3  grid-lg-4 right-content d-none d-sm-block d-md-none d-xl-block">
+					<div class="right-bar">
+						<div class="spnsor-wrapper border-b">
+							<h4 class="mb-15 ">Sponsor</h4>
+							<div class="spnsor">
+								<a href="#" class="d-flex align-items-center">
+									<img src="assets/img/spotlight.png" alt="">
+									<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+								</a>
+							</div>
+							<div class="spnsor">
+								<a href="#" class="d-flex align-items-center">
+									<img src="assets/img/spotlight.png" alt="">
+									<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+								</a>
+							</div>
+						</div>
+						<div class="friend-request mt-20 border-b">
+							<div class="d-flex justify-content-between p-10">
+								<h5>Friend Request</h5>
+								<a class="see-all" href="#">See All</a>
+							</div>
+							<div class="d-flex align-items-center request-profile">
+								<div>
+									<div class="profile-img mr-10">
+										<img src="assets/img/profile-pic.png" alt="">
+									</div>
+								</div>
+								<div class="flex-1">
+									<div class="d-flex justify-content-between">
+										<p>Radowan Bhuiyan</p>
+										<p>4 Day</p>
+									</div>
+									<div class="request-btn">
+										<ul class="btn-wrapper">
+											<li><button class="btn" type="submit">Confirm</button></li>
+											<li><button class="btn remove-btn" type="submit">Remove</button></li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="suggest-friend friend-request mt-20">
+							<div class="d-flex justify-content-between p-10">
+								<h5>Suggest Friend</h5>
+								<a class="see-all" href="#">See All</a>
+							</div>
+							<div class="d-flex align-items-center justify-content-between  request-profile">
+								<div>
+
+									<div class="d-flex align-items-center">
+										<div class="profile-img mr-10">
+											<img src="assets/img/profile-pic.png" alt="">
+										</div>
+										<div>
+											<p>Radowan Bhuiyan</p>
+											<p>4 Day</p>
+										</div>
+
+									</div>
+								</div>
+								<div>
+
+									<div class="request-btn">
+										<ul class="btn-wrapper">
+											<li><button class="btn" type="submit">Suggest Friend</button></li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="group mt-20">
+							<div class="d-flex justify-content-between p-10">
+								<h5>Group Conversion</h5>
+							</div>
+							<div class="d-flex align-items-center justify-content-between  request-profile">
+								<div>
+
+									<div class="d-flex align-items-center">
+										<div class="profile-img mr-10">
+											<img src="assets/img/profile-pic.png" alt="">
+										</div>
+										<div>
+											<p>Radowan Bhuiyan</p>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--========================== javascript ======================================-->
+	<script type="text/javascript" src="assets/js/jquery-3.2.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+	<!--=== All ===-->
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	
+	<script>
+		var settingsmenu = document.querySelector(".setting-menu");
+
+		function settingsMenuToggle() {
+			settingsmenu.classList.toggle("setting-menu-height");
+		}
+		
+</script>
+<script>
+	var leftMenu = document.querySelector(".left-menu-content");
+
+	function leftMenuToggle() {
+	leftMenu.classList.toggle("left-sm-menu-height");
+	}
+</script>
+
+</body>
+
+</html>

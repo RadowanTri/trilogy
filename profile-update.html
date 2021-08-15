@@ -303,7 +303,7 @@
 
 									<div>
 										<!-- BEGIN profile-header-tab -->
-										<div class="d-none d-md-block">
+										<div class="d-none d-lg-block">
 											<ul class="profile-header-tab nav nav-tabs">
 												<li class="nav-item "><a href="#profile-post" class="nav-link active"
 														data-toggle="tab">POSTS</a>
@@ -332,7 +332,7 @@
 
 											</ul>
 										</div>
-										<div class="d-block d-md-none">
+										<div class="d-block d-lg-none">
 											<ul class="profile-header-tab nav nav-tabs ">
 												<li class="nav-item "><a href="#profile-post" class="nav-link active" data-toggle="tab">POSTS</a>
 												</li>
@@ -352,9 +352,7 @@
 									<div>
 										<div class="f-right">
 											<div class="eidt-dot d-flex align-items-center k">
-												<a href="#" class="btn btn-follow d-none d-md-bloc">
-													Add to Story
-												</a>
+						
 												<a href="#" class="btn grey-btn  ml-2">
 													<i class="fas fa-pencil-alt"></i>
 													Edit Profile
@@ -385,7 +383,7 @@
 							<!-- begin #profile-friends tab -->
 							<div class="tab-pane fade in active show" id="profile-post">
 								<!-- begin row -->
-								<div class="row row-space-2 mb-3">
+								<div class="row mb-3">
 									<!-- begin col-6 -->
 									<div class="col-md-5">
 										<div class="title-wrapper box_shadow pt-y-10">
@@ -481,6 +479,7 @@
 															Gird-view</a>
 													</li>
 												</ul>
+												
 
 
 											</div>
@@ -771,6 +770,9 @@
 													<li><a href="#contact" data-toggle="tab">Contact</a>
 													</li>
 													<li><a href="#family" data-toggle="tab">family &amp; Relation</a>
+													</li>
+
+													<li><a href="#family" data-toggle="tab">Cv &amp; Resume</a>
 													</li>
 
 												</ul>
@@ -1554,420 +1556,213 @@
 							<div class="tab-pane fade in" id="profile-friends">
 								<h4 class="mb-3">Friend List (14)</h4>
 								<!-- begin row -->
-								<div class="row row-space-2">
-									<!-- begin col-6 -->
-									<div class="col-md-12 col-lg-6 m-b-2">
-										<div class="pt-y-10 bg-white">
-											<div class="media media-xs overflow-visible">
-												<a class="media-left" href="#">
-													<img src="assets/img/avatar4.png" alt=""
-														class="media-object img-circle">
-												</a>
-												<div class="media-body valign-middle">
-													<b class="text-inverse">Radowan Bhuiyan</b>
-												</div>
-												<div class="media-body valign-middle text-right overflow-visible">
-													<div class="btn-group dropdown">
-														<a href="#" data-toggle="dropdown"
-															class="btn btn-default dropdown-toggle"
-															aria-expanded="false">Friends</a>
-														<ul class="dropdown-menu dropdown-menu-right"
-															x-placement="bottom-end"
-															style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(101px, 34px, 0px);">
-															<li><a href="#">Action 1</a></li>
-															<li><a href="#">Action 2</a></li>
-															<li><a href="#">Action 3</a></li>
-															<li class="divider"></li>
-															<li><a href="#">Action 4</a></li>
-														</ul>
+								<div class="row row-space-2 mb-4">
+									<div class="col-md-12">
+										<div class="friends-wrapper box_shadow pt-y-10">
+											<div class="title-wrapper ">
+												<div class="title">
+													<div class="d-flex-item-f">
+														<div class="btn-group dropdown sort-by">
+															<p>Sort by: </p>
+															<a href="#" data-toggle="dropdown" class="btn-default dropdown-toggle"
+																aria-expanded="true">Recently
+																Added</a>
+															<ul class="dropdown-menu dropdown-menu-right" x-placement="bottom-end">
+																<li><a href="#">Action 1</a></li>
+																<li><a href="#">Action 2</a></li>
+																<li><a href="#">Action 3</a></li>
+																<li class="divider"></li>
+																<li><a href="#">Action 4</a></li>
+															</ul>
+														</div>
+														<div class="search-filter">
+															<form action="">
+																<div class="form-group has-search">
+																	<i class="fa fa-search"></i>
+																	<input type="text" class="form-control" placeholder="Search">
+																</div>
+																<div>
+																	<a href="#">Search With Filter</a>
+																</div>
+															</form>
+														</div>
+
 													</div>
 												</div>
-											</div>
-										</div>
-									</div>
-									<!-- end col-6 -->
-									<!-- begin col-6 -->
-									<div class="col-md-12 col-lg-6 m-b-2">
-										<div class="pt-y-10 bg-white">
-											<div class="media media-xs overflow-visible">
-												<a class="media-left" href="#">
-													<img src="assets/img/avatar4.png" alt=""
-														class="media-object img-circle">
-												</a>
-												<div class="media-body valign-middle">
-													<b class="text-inverse">Mitchell Ashcroft</b>
-												</div>
-												<div class="media-body valign-middle text-right overflow-visible">
-													<div class="btn-group dropdown">
-														<a href="#" data-toggle="dropdown"
-															class="btn btn-default dropdown-toggle"
-															aria-expanded="false">Friends</a>
-														<ul class="dropdown-menu dropdown-menu-right">
-															<li><a href="#">Action 1</a></li>
-															<li><a href="#">Action 2</a></li>
-															<li><a href="#">Action 3</a></li>
-															<li class="divider"></li>
-															<li><a href="#">Action 4</a></li>
-														</ul>
+												<div>
+													<div class="media media-xs overflow-visible">
+														
+														<div class="media-body valign-middle ">
+															<div class="d-flex align-items-center">
+																<a class="media-left" href="#">
+																	<img src="assets/img/avatar4.png" alt="" class="media-object img-circle">
+																</a>
+																<div>
+																	<p>Lorem ipsum dolor sit amet.</p>
+																	<p><b class="text-inverse">Radowan Bhuiyan</b></p>
+																	<p>Lorem ipsum dolor sit amet. sdc</p>
+																</div>
+
+															</div>
+															
+
+
+
+														</div>
+														<div class="media-body valign-middle">
+															<div class="messages">
+																<a href="#" class="btn btn-transparent">
+																	Messages
+																</a>
+																<a href="#">
+																	<div class="dot-item">
+																		<div class="dot1"></div>
+																		<div class="dot2"></div>
+																		<div class="dot3"></div>
+																	</div>
+																</a>
+
+															</div>
+															
+														</div>
 													</div>
 												</div>
+												
+
+												
 											</div>
+
 										</div>
 									</div>
-									<!-- end col-6 -->
-									<!-- begin col-6 -->
-									<div class="col-md-12 col-lg-6 m-b-2">
-										<div class="pt-y-10 bg-white">
-											<div class="media media-xs overflow-visible">
-												<a class="media-left" href="#">
-													<img src="assets/img/avatar4.png" alt=""
-														class="media-object img-circle">
-												</a>
-												<div class="media-body valign-middle">
-													<b class="text-inverse">Ella Cabena</b>
-												</div>
-												<div class="media-body valign-middle text-right overflow-visible">
-													<div class="btn-group dropdown">
-														<a href="#" data-toggle="dropdown"
-															class="btn btn-default dropdown-toggle"
-															aria-expanded="false">Friends</a>
-														<ul class="dropdown-menu dropdown-menu-right" <li=""><a
-																href="#">Action
-																1</a>
-															<li><a href="#">Action 2</a></li>
-															<li><a href="#">Action 3</a></li>
-															<li class="divider"></li>
-															<li><a href="#">Action 4</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- end col-6 -->
-									<!-- begin col-6 -->
-									<div class="col-md-12 col-lg-6 m-b-2">
-										<div class="pt-y-10 bg-white">
-											<div class="media media-xs overflow-visible">
-												<a class="media-left" href="#">
-													<img src="assets/img/avatar4.png" alt=""
-														class="media-object img-circle">
-												</a>
-												<div class="media-body valign-middle">
-													<b class="text-inverse">Declan Dyson</b>
-												</div>
-												<div class="media-body valign-middle text-right overflow-visible">
-													<div class="btn-group dropdown">
-														<a href="#" data-toggle="dropdown"
-															class="btn btn-default dropdown-toggle"
-															aria-expanded="false">Friends</a>
-														<ul class="dropdown-menu dropdown-menu-right">
-															<li><a href="#">Action 1</a></li>
-															<li><a href="#">Action 2</a></li>
-															<li><a href="#">Action 3</a></li>
-															<li class="divider"></li>
-															<li><a href="#">Action 4</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- end col-6 -->
-									<!-- begin col-6 -->
-									<div class="col-md-12 col-lg-6 m-b-2">
-										<div class="pt-y-10 bg-white">
-											<div class="media media-xs overflow-visible">
-												<a class="media-left" href="#">
-													<img src="assets/img/avatar6.png" alt=""
-														class="media-object img-circle">
-												</a>
-												<div class="media-body valign-middle">
-													<b class="text-inverse">George Seyler</b>
-												</div>
-												<div class="media-body valign-middle text-right overflow-visible">
-													<div class="btn-group dropdown">
-														<a href="#" data-toggle="dropdown"
-															class="btn btn-default dropdown-toggle"
-															aria-expanded="false">Friends</a>
-														<ul class="dropdown-menu dropdown-menu-right">
-															<li><a href="#">Action 1</a></li>
-															<li><a href="#">Action 2</a></li>
-															<li><a href="#">Action 3</a></li>
-															<li class="divider"></li>
-															<li><a href="#">Action 4</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- end col-6 -->
-									<!-- begin col-6 -->
-									<div class="col-md-12 col-lg-6 m-b-2">
-										<div class="pt-y-10 bg-white">
-											<div class="media media-xs overflow-visible">
-												<a class="media-left" href="#">
-													<img src="assets/img/avatar6.png" alt=""
-														class="media-object img-circle">
-												</a>
-												<div class="media-body valign-middle">
-													<b class="text-inverse">Patrick Musgrove</b>
-												</div>
-												<div class="media-body valign-middle text-right overflow-visible">
-													<div class="btn-group dropdown">
-														<a href="#" data-toggle="dropdown"
-															class="btn btn-default dropdown-toggle"
-															aria-expanded="false">Friends</a>
-														<ul class="dropdown-menu dropdown-menu-right">
-															<li><a href="#">Action 1</a></li>
-															<li><a href="#">Action 2</a></li>
-															<li><a href="#">Action 3</a></li>
-															<li class="divider"></li>
-															<li><a href="#">Action 4</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- end col-6 -->
-									<!-- begin col-6 -->
-									<div class="col-md-12 col-lg-6 m-b-2">
-										<div class="pt-y-10 bg-white">
-											<div class="media media-xs overflow-visible">
-												<a class="media-left" href="#">
-													<img src="assets/img/avatar4.png" alt=""
-														class="media-object img-circle">
-												</a>
-												<div class="media-body valign-middle">
-													<b class="text-inverse">Taj Connal</b>
-												</div>
-												<div class="media-body valign-middle text-right overflow-visible">
-													<div class="btn-group dropdown">
-														<a href="#" data-toggle="dropdown"
-															class="btn btn-default dropdown-toggle"
-															aria-expanded="false">Friends</a>
-														<ul class="dropdown-menu dropdown-menu-right">
-															<li><a href="#">Action 1</a></li>
-															<li><a href="#">Action 2</a></li>
-															<li><a href="#">Action 3</a></li>
-															<li class="divider"></li>
-															<li><a href="#">Action 4</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- end col-6 -->
-									<!-- begin col-6 -->
-									<div class="col-md-12 col-lg-6 m-b-2">
-										<div class="pt-y-10 bg-white">
-											<div class="media media-xs overflow-visible">
-												<a class="media-left" href="#">
-													<img src="assets/img/avatar4.png" alt=""
-														class="media-object img-circle">
-												</a>
-												<div class="media-body valign-middle">
-													<b class="text-inverse">Laura Pollock</b>
-												</div>
-												<div class="media-body valign-middle text-right overflow-visible">
-													<div class="btn-group dropdown">
-														<a href="#" data-toggle="dropdown"
-															class="btn btn-default dropdown-toggle"
-															aria-expanded="false">Friends</a>
-														<ul class="dropdown-menu dropdown-menu-right">
-															<li><a href="#">Action 1</a></li>
-															<li><a href="#">Action 2</a></li>
-															<li><a href="#">Action 3</a></li>
-															<li class="divider"></li>
-															<li><a href="#">Action 4</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- end col-6 -->
-									<!-- begin col-6 -->
-									<div class="col-md-12 col-lg-6 m-b-2">
-										<div class="pt-y-10 bg-white">
-											<div class="media media-xs overflow-visible">
-												<a class="media-left" href="#">
-													<img src="assets/img/avatar6.png" alt=""
-														class="media-object img-circle">
-												</a>
-												<div class="media-body valign-middle">
-													<b class="text-inverse">Dakota Mannix</b>
-												</div>
-												<div class="media-body valign-middle text-right overflow-visible">
-													<div class="btn-group dropdown">
-														<a href="#" data-toggle="dropdown"
-															class="btn btn-default dropdown-toggle"
-															aria-expanded="false">Friends</a>
-														<ul class="dropdown-menu dropdown-menu-right">
-															<li><a href="#">Action 1</a></li>
-															<li><a href="#">Action 2</a></li>
-															<li><a href="#">Action 3</a></li>
-															<li class="divider"></li>
-															<li><a href="#">Action 4</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- end col-6 -->
-									<!-- begin col-6 -->
-									<div class="col-md-12 col-lg-6 m-b-2">
-										<div class="pt-y-10 bg-white">
-											<div class="media media-xs overflow-visible">
-												<a class="media-left" href="#">
-													<img src="assets/img/avatar4.png" alt=""
-														class="media-object img-circle">
-												</a>
-												<div class="media-body valign-middle">
-													<b class="text-inverse">Timothy Woolley</b>
-												</div>
-												<div class="media-body valign-middle text-right overflow-visible">
-													<div class="btn-group dropdown">
-														<a href="#" data-toggle="dropdown"
-															class="btn btn-default dropdown-toggle"
-															aria-expanded="false">Friends</a>
-														<ul class="dropdown-menu dropdown-menu-right">
-															<li><a href="#">Action 1</a></li>
-															<li><a href="#">Action 2</a></li>
-															<li><a href="#">Action 3</a></li>
-															<li class="divider"></li>
-															<li><a href="#">Action 4</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- end col-6 -->
-									<!-- begin col-6 -->
-									<div class="col-md-12 col-lg-6 m-b-2">
-										<div class="pt-y-10 bg-white">
-											<div class="media media-xs overflow-visible">
-												<a class="media-left" href="#">
-													<img src="assets/img/avatar4.png" alt=""
-														class="media-object img-circle">
-												</a>
-												<div class="media-body valign-middle">
-													<b class="text-inverse">Benjamin Congreve</b>
-												</div>
-												<div class="media-body valign-middle text-right overflow-visible">
-													<div class="btn-group dropdown">
-														<a href="#" data-toggle="dropdown"
-															class="btn btn-default dropdown-toggle"
-															aria-expanded="false">Friends</a>
-														<ul class="dropdown-menu dropdown-menu-right">
-															<li><a href="#">Action 1</a></li>
-															<li><a href="#">Action 2</a></li>
-															<li><a href="#">Action 3</a></li>
-															<li class="divider"></li>
-															<li><a href="#">Action 4</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- end col-6 -->
-									<!-- begin col-6 -->
-									<div class="col-md-12 col-lg-6 m-b-2">
-										<div class="pt-y-10 bg-white">
-											<div class="media media-xs overflow-visible">
-												<a class="media-left" href="#">
-													<img src="assets/img/avatar4.png" alt=""
-														class="media-object img-circle">
-												</a>
-												<div class="media-body valign-middle">
-													<b class="text-inverse">Mariam Maddock</b>
-												</div>
-												<div class="media-body valign-middle text-right overflow-visible">
-													<div class="btn-group dropdown">
-														<a href="#" data-toggle="dropdown"
-															class="btn btn-default dropdown-toggle"
-															aria-expanded="false">Friends</a>
-														<ul class="dropdown-menu dropdown-menu-right">
-															<li><a href="#">Action 1</a></li>
-															<li><a href="#">Action 2</a></li>
-															<li><a href="#">Action 3</a></li>
-															<li class="divider"></li>
-															<li><a href="#">Action 4</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- end col-6 -->
-									<!-- begin col-6 -->
-									<div class="col-md-12 col-lg-6 m-b-2">
-										<div class="pt-y-10 bg-white">
-											<div class="media media-xs overflow-visible">
-												<a class="media-left" href="#">
-													<img src="assets/img/avatar4.png" alt=""
-														class="media-object img-circle">
-												</a>
-												<div class="media-body valign-middle">
-													<b class="text-inverse">Blake Gerrald</b>
-												</div>
-												<div class="media-body valign-middle text-right overflow-visible">
-													<div class="btn-group dropdown">
-														<a href="#" data-toggle="dropdown"
-															class="btn btn-default dropdown-toggle"
-															aria-expanded="false">Friends</a>
-														<ul class="dropdown-menu dropdown-menu-right">
-															<li><a href="#">Action 1</a></li>
-															<li><a href="#">Action 2</a></li>
-															<li><a href="#">Action 3</a></li>
-															<li class="divider"></li>
-															<li><a href="#">Action 4</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- end col-6 -->
-									<!-- begin col-6 -->
-									<!-- end col-6 -->
-									<!-- begin col-6 -->
-									<div class="col-md-12 col-lg-6 m-b-2">
-										<div class="pt-y-10 bg-white">
-											<div class="media media-xs overflow-visible">
-												<a class="media-left" href="#">
-													<img src="assets/img/avatar4.png" alt=""
-														class="media-object img-circle">
-												</a>
-												<div class="media-body valign-middle">
-													<b class="text-inverse">Gabrielle Bunton</b>
-												</div>
-												<div class="media-body valign-middle text-right overflow-visible">
-													<div class="btn-group dropdown">
-														<a href="#" data-toggle="dropdown"
-															class="btn btn-default dropdown-toggle"
-															aria-expanded="false">Friends</a>
-														<ul class="dropdown-menu dropdown-menu-right">
-															<li><a href="#">Action 1</a></li>
-															<li><a href="#">Action 2</a></li>
-															<li><a href="#">Action 3</a></li>
-															<li class="divider"></li>
-															<li><a href="#">Action 4</a></li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- end col-6 -->
+									
+									
+									
 								</div>
 								<!-- end row -->
+								<div class="row row-space-2">
+									<div class="col-md-12">
+										<div class="friends-follow box_shadow pt-y-10">
+											<div class="d-flex justify-content-between mb-20">
+												<p>People who are in Bangladesh also follow these pages</p>
+												<a href="#"">See all</a>
+											</div>
+
+											<div class="follow-grid">
+												<div class="friends-follow-wrapper">
+													<div class="top-img">
+														<img src="assets/img/banner.jpg" alt="">
+													</div>
+													<div class="follow-content">
+														<div class="middle-img">
+															<img src="assets/img/avatar4.png" alt="">
+														</div>
+														<div class="follow-s">
+															<p><b>Jobs</b></p>
+															<p>Radowan</p>
+															<p><span>120 follower</span></p>
+														</div>
+														<a href="#" class="btn btn-transparent">follow</a>
+													</div>
+													
+													
+												</div>
+												<div class="friends-follow-wrapper">
+													<div class="top-img">
+														<img src="assets/img/banner.jpg" alt="">
+													</div>
+													<div class="follow-content">
+														<div class="middle-img">
+															<img src="assets/img/avatar4.png" alt="">
+														</div>
+														<div class="follow-s">
+															<p><b>Jobs</b></p>
+						
+															<p><span>120 follower</span></p>
+														</div>
+														<a href="#" class="btn btn-transparent">follow</a>
+													</div>
+
+
+												</div>
+												<div class="friends-follow-wrapper">
+													<div class="top-img">
+														<img src="assets/img/banner.jpg" alt="">
+													</div>
+													<div class="follow-content">
+														<div class="middle-img">
+															<img src="assets/img/avatar4.png" alt="">
+														</div>
+														<div class="follow-s">
+															<p><b>Jobs</b></p>
+															<p>Radowan</p>
+															<p><span>120 follower</span></p>
+														</div>
+														<a href="#" class="btn btn-transparent">follow</a>
+													</div>
+													
+													
+												</div>
+												<div class="friends-follow-wrapper">
+													<div class="top-img">
+														<img src="assets/img/banner.jpg" alt="">
+													</div>
+													<div class="follow-content">
+														<div class="middle-img">
+															<img src="assets/img/avatar4.png" alt="">
+														</div>
+														<div class="follow-s">
+															<p><b>Jobs</b></p>
+						
+															<p><span>120 follower</span></p>
+														</div>
+														<a href="#" class="btn btn-transparent">follow</a>
+													</div>
+
+
+												</div>
+												<div class="friends-follow-wrapper">
+													<div class="top-img">
+														<img src="assets/img/banner.jpg" alt="">
+													</div>
+													<div class="follow-content">
+														<div class="middle-img">
+															<img src="assets/img/avatar4.png" alt="">
+														</div>
+														<div class="follow-s">
+															<p><b>Jobs</b></p>
+															<p>Radowan</p>
+															<p><span>120 follower</span></p>
+														</div>
+														<a href="#" class="btn btn-transparent">follow</a>
+													</div>
+													
+													
+												</div>
+												<div class="friends-follow-wrapper">
+													<div class="top-img">
+														<img src="assets/img/banner.jpg" alt="">
+													</div>
+													<div class="follow-content">
+														<div class="middle-img">
+															<img src="assets/img/avatar4.png" alt="">
+														</div>
+														<div class="follow-s">
+															<p><b>Jobs</b></p>
+						
+															<p><span>120 follower</span></p>
+														</div>
+														<a href="#" class="btn btn-transparent">follow</a>
+													</div>
+
+
+												</div>
+
+											</div>
+
+											
+										</div>
+									</div>
+								</div>
 							</div>
 							<!-- end #profile-friends tab -->
 

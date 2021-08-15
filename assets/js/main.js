@@ -8,16 +8,6 @@ $(document).ready(function($){
  })
 
 
-  $(window).on('scroll', function () {
-    var wscroll = $(this).scrollTop();
-    //fixed-nav
-    wscroll > 1 ? $("#header").addClass("fixed") : $("#header").removeClass("fixed");
-
-    // go top appear
-    wscroll > 700 ? $("#goTop").fadeIn() : $("#goTop").fadeOut();
-
-  });
-
 
   $( document ).ready(function() {
     $('.owl-carousel').owlCarousel({
