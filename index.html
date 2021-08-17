@@ -34,11 +34,16 @@
 	<div class="header-sticky">
 	<nav>
 		<div class="nav-left">
+
 			<img src="assets/img/logo-top.png" alt="" class="logo">
-			<div class="search-box">
+			<div class="search-box" id="search-btn">
 				<i class="fas fa-search"></i>
 				<input type="text" placeholder="search">
 			</div>
+			<form action="" class="search-bar-container active">
+				<input type="search" id="search-bar" placeholder="search">
+				<label for="search-bar" class="fas fa-search"></label>
+			</form>
 			
 
 		</div>
@@ -1018,6 +1023,16 @@
 		$(".left-content").toggleClass("left-sm-menu-height");
 		$(".main-content").toggleClass("main-content-none");
 		});
+	});
+	let searchBtn = document.querySelector('#search-btn');
+	let searchBar = document.querySelector('.search-bar-container');
+	window.onscroll = () =>{
+	searchBtn.classList.remove('fa-times');
+	searchBar.classList.remove('active');
+	}
+	searchBtn.addEventListener('click', () =>{
+	// searchBtn.classList.toggle('fa-times');
+	searchBar.classList.toggle('active');
 	});
 </script>
 <style>
