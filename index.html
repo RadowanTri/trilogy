@@ -20,7 +20,6 @@
 	<!--=== Bootstrap 4===-->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 	<!--=== Main Css ===-->
-	<link rel="stylesheet" type="text/css" href="assets/sidebar.css">
 	<link rel="stylesheet" href="assets/css/style.css" />
 	<link rel="stylesheet" href="assets/css/header.css" />
 
@@ -47,13 +46,24 @@
 			<ul class="nt-area">
 				<li>
 					<a href="#">
-						<div class="item home" onclick="leftMenuToggle()">
+						<div class="item home" onclick="leftMenuToggle()" id="hide">
+							<i class="fas fa-bars"></i>
+
+						</div>
+					</a>
+
+
+				</li>
+				<li>
+					<a href="#">
+						<div class="item home"> 
+						<!-- <div class="item home" onclick="leftMenuToggle()" id="hide">  -->
 							<i class="fas fa-home"></i>
 							<span>Home</span>
 							
 						</div>
 					</a>
-					<div class=" left-menu-content">
+					<div class=" d-none">
 						<div class="left-sidebar">
 							<div class="imp-link">
 								<a href="#">
@@ -106,13 +116,13 @@
 								<h4 class="mb-15 mt-10">Sponsor</h4>
 								<div class="spnsor">
 									<a href="#" class="d-flex align-items-center">
-										<img src="assets/img/spotlight.png" alt="">
+										<img src="assets/img/status-4.png" alt="">
 										<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
 									</a>
 								</div>
 								<div class="spnsor">
 									<a href="#" class="d-flex align-items-center">
-										<img src="assets/img/spotlight.png" alt="">
+										<img src="assets/img/status-4.png" alt="">
 										<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
 									</a>
 								</div>
@@ -198,9 +208,9 @@
 
 				</li>
 
-				<li>
+				<li class="d-sm-none d-none d-md-block">
 					<a href="#">
-						<div class="item user"><i class="fas fa-users"></i><span>User</span></div>
+						<div class="item user"><i class="fas fa-users"></i><span>Group</span></div>
 
 					</a>
 				</li>
@@ -285,56 +295,78 @@
 	</nav>
 	</div>
 
-	<div class="p-p">
+	<div class="p-p" id="show">
 		
 
 		<div class="pt-30 pb-20">
 			<div class="main">
-				<div class="grid-3 grid-lg-2 left-content">
+				<div class=" grid-3 grid-lg-2 left-content ">
 					<div class="left-sidebar">
 						<div class="imp-link">
-							<a href="#">
-								<img src="assets/img/news.png" alt="">
-								Latest News
-							</a>
-							<a href="#">
-								<img src="assets/img/friends.png" alt="">
-								Friends
-							</a>
-							<a href="#">
-								<img src="assets/img/group.png" alt="">
-								Group
-							</a>
-							<a href="#">
-								<img src="assets/img/marketplace.png" alt="">
-								Marketplace
-							</a>
-							<a href="#">
-								<img src="assets/img/watch.png" alt="">
-								Watch
-							</a>
-							<a href="#">
-								See More
-							</a>
+							<ul>
+								<li>
+									<a href="#">
+										<img src="assets/img/news.png" alt="">
+										Latest News
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="assets/img/friends.png" alt="">
+										Friends
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="assets/img/group.png" alt="">
+										Group
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="assets/img/watch.png" alt="">
+										Watch
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										See More <i class="fas fa-chevron-circle-down pl-2"></i>
+									</a>
+
+								</li>
+							</ul>
 						</div>
 						<div class="shortcut-links">
-							<p>Your Shortcuts</p>
-							<a href="#">
-								<img src="assets/img/shortcut-1.png" alt="">
-								Web Developer
-							</a>
-							<a href="#">
-								<img src="assets/img/shortcut-2.png" alt="">
-								Web Design Course
-							</a>
-							<a href="#">
-								<img src="assets/img/shortcut-3.png" alt="">
-								Full Stack Developer
-							</a>
-							<a href="#">
-								<img src="assets/img/shortcut-4.png" alt="">
-								Website Experts
-							</a>
+							<ul>
+								<li>
+									<p>Your Shortcuts</p>
+								</li>
+								<li>
+									<a href="#">
+										<img src="assets/img/shortcut-1.png" alt="">
+										Web Developer
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="assets/img/shortcut-2.png" alt="">
+										Web Design Course
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="assets/img/shortcut-3.png" alt="">
+										Full Stack Developer
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="assets/img/shortcut-4.png" alt="">
+										Website Experts
+									</a>
+								</li>
+							</ul>
+
 						</div>
 
 					</div>
@@ -343,13 +375,13 @@
 							<h4 class="mb-15 mt-10">Sponsor</h4>
 							<div class="spnsor">
 								<a href="#" class="d-flex align-items-center">
-									<img src="assets/img/spotlight.png" alt="">
+									<img src="assets/img/status-4.png" alt="">
 									<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
 								</a>
 							</div>
 							<div class="spnsor">
 								<a href="#" class="d-flex align-items-center">
-									<img src="assets/img/spotlight.png" alt="">
+									<img src="assets/img/status-4.png" alt="">
 									<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
 								</a>
 							</div>
@@ -434,7 +466,7 @@
 				</div>
 				<div class="grid-6 grid-lg-6 main-content">
 					<div class=" box_shadow  p-20">
-						<div class="batch-learn d-md-flex justify-content-between">
+						<div class="batch-learn d-sm-flex justify-content-between">
 							<h4>Patch-based Deep Learning</h4>
 							<a href="#">
 								<img class="mr-2" src="assets/img/discus.png" alt="">
@@ -446,13 +478,13 @@
 					</div>
 					<div class="mt-20 box_shadow  p-20">
 						<div class="profile">
-							<div class="profile-top d-block d-lg-flex justify-content-between align-items-center">
+							<div class="profile-top d-flex justify-content-between align-items-center">
 								<div class="d-flex align-items-center">
 									<div class="profile-img mr-10">
 										<img src="assets/img/profile-pic.png" alt="">
 									</div>
 									<div>
-										<h5>Mike Dawson</h5>
+										<h5>Radowan Bhuiyan</h5>
 										<p>2 hours ago</p>
 									</div>
 
@@ -497,9 +529,9 @@
 									<div class="agree">
 										<p>
 										<a href="#">
-											<span>Agree: </span>
+
 											<img src="assets/img/like.png" alt="">
-											
+	
 										</a>
 										
 										</p>
@@ -516,7 +548,7 @@
 									<div class="agree">
 										<p>
 											<a href="#">
-												<span>Disagree: </span>
+												
 												<img src="assets/img/unlike.png" alt="">
 
 											</a>
@@ -532,7 +564,7 @@
 					
 									<p>
 										<a href="">
-											<span>Vote: </span>
+											
 											<i class="far fa-star"></i>
 											<i class="far fa-star"></i>
 											<i class="far fa-star"></i>
@@ -546,7 +578,7 @@
 										<a class="" data-toggle="collapse" href="#collapse-ask1" role="button" aria-expanded="false"
 											aria-controls="collapse-ask1">
 											<img src="assets/img/ask.png" alt="">
-											<span>Ask </span>
+											
 										</a>
 										
 									</p>
@@ -555,14 +587,14 @@
 										<a href="">
 
 											<img src="assets/img/discussion.png" alt="">
-											<span>Discuss it </span>
+											
 										</a>
 									</p>
 									<p>
 										<a href="">
 
 											<img src="assets/img/share.png" alt="">
-											<span>Share</span>
+											
 										</a>
 									</p>
 								</div>
@@ -580,7 +612,7 @@
 					</div>
 					<div class="mt-20 box_shadow  p-20">
 						<div class="profile">
-							<div class="profile-top d-block d-lg-flex justify-content-between align-items-center">
+							<div class="profile-top d-flex justify-content-between align-items-center">
 								<div class="d-flex align-items-center">
 									<div class="profile-img mr-10">
 										<img src="assets/img/profile-pic.png" alt="">
@@ -635,7 +667,7 @@
 								<div class="agree">
 									<p>
 										<a href="#">
-											<span>Agree: </span>
+
 											<img src="assets/img/like.png" alt="">
 
 										</a>
@@ -652,7 +684,7 @@
 								<div class="agree">
 									<p>
 										<a href="#">
-											<span>Disagree: </span>
+											
 											<img src="assets/img/unlike.png" alt="">
 
 										</a>
@@ -670,7 +702,7 @@
 
 								<p>
 									<a href="">
-										<span>Vote: </span>
+										
 										<i class="far fa-star"></i>
 										<i class="far fa-star"></i>
 										<i class="far fa-star"></i>
@@ -684,21 +716,21 @@
 									<a href="#">
 
 										<img src="assets/img/ask.png" alt="">
-										<span>Ask Question </span>
+										
 									</a>
 								</p>
 								<p>
 									<a href="#">
 
 										<img src="assets/img/discussion.png" alt="">
-										<span>Discuss it </span>
+										
 									</a>
 								</p>
 								<p>
 									<a href="#">
 
 										<img src="assets/img/share.png" alt="">
-										<span>Share</span>
+										
 									</a>
 								</p>
 							</div>
@@ -708,7 +740,7 @@
 					</div>
 					<div class="mt-20 box_shadow  p-20">
 						<div class="profile">
-							<div class="profile-top d-block d-lg-flex justify-content-between align-items-center">
+							<div class="profile-top d-flex justify-content-between align-items-center">
 								<div class="d-flex align-items-center">
 									<div class="profile-img mr-10">
 										<img src="assets/img/profile-pic.png" alt="">
@@ -762,19 +794,17 @@
 							<div class="post-left">
 								<p>
 									<a href="#">
-										<span>Agree: </span>
 										<img src="assets/img/like.png" alt="">
 									</a>
 								</p>
 								<p>
 									<a href="#">
-										<span>Agree: </span>
 										<img src="assets/img/unlike.png" alt="">
 									</a>
 								</p>
 								<p>
 									<a href="#">
-										<span>Vote: </span>
+										
 										<i class="far fa-star"></i>
 										<i class="far fa-star"></i>
 										<i class="far fa-star"></i>
@@ -787,20 +817,20 @@
 								<p>
 									<a href="#">
 										<img src="assets/img/ask.png" alt="">
-										<span>Ask Question </span>
+										
 									</a>
 								</p>
 								<p>
 									<a href="#">
 										<img src="assets/img/discussion.png" alt="">
-										<span>Discuss it </span>
+										
 									</a>
 								</p>
 								<p>
 									<a href="#">
 
 										<img src="assets/img/share.png" alt="">
-										<span>Share</span>
+										
 									</a>
 								</p>
 							</div>
@@ -818,7 +848,7 @@
 							<h4 class="mb-15 ">Sponsor</h4>
 							<div class="spnsor">
 								<a href="#" class="d-flex align-items-center">
-									<img src="assets/img/spotlight.png" alt="">
+									<img src="assets/img/status-4.png" alt="">
 									<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
 								</a>
 							</div>
@@ -931,13 +961,81 @@
 		}
 		
 </script>
-<script>
-	var leftMenu = document.querySelector(".left-menu-content");
 
-	function leftMenuToggle() {
-	leftMenu.classList.toggle("left-sm-menu-height");
-	}
+
+<script>
+	// var leftMenu = document.querySelector(".left-content");
+	// function leftMenuToggle() {
+	// leftMenu.classList.toggle("left-sm-menu-height");
+	// leftMenu.classList.remove(".main-content");
+	// }
+
+	// function leftMenuToggle() {
+	// 	leftMenu.classList.toggle("left-sm-menu-height");
+	// 	leftMenu.classList.remove(".main-content");
+		// $(".main-content").toggle("left-sm-menu-height");
+		// $(".main-content").css("display", "none");
+		// leftMenu.classList.remove("left-sm-menu-height");
+	// }
+	
+	// $('.home').click(function(e) {
+	// $('.home').removeClass('left-content');
+	// $(this).addClass('left-content');
+	// });
+
+		// function leftMenuToggle() {
+		// leftMenu.classList.remove("left-sm-menu-height");
+		// $(".main-content").css("display", "block");
+		// }
+	// $(document).ready(function () {
+	// $("#menu").click(function () {
+	// $(".dropdown_menu").toggle();
+	// $(".menu_content").css("display", "none");
+	// });
+	// });
+	// $(".left-content").on("click", function () {
+	// $('.left-content').toggle();
+	// $('.left-content').addClass('left-sm-menu-height');
+	// $('.left-content').remove('left-sm-menu-height');
+	// });
+	// var leftMenu = document.querySelector(".left-menu-content");
+
+	// function leftMenuToggle() {
+	// 	leftMenu.classList.toggle("left-sm-menu-height");
+	// }
+	// var mainMenu = document.querySelector(".main-menu");
+
+	// function leftMenuToggle() {
+	// main.remove.toggle("main-remove");
+	// }
+//   $('.left-menu-content').show();
+//   $('.main-content').hide();
+
 </script>
+<script>
+	$(document).ready(function(){
+		$(".home").click(function(){
+		$(".left-content").toggleClass("left-sm-menu-height");
+		$(".main-content").toggleClass("main-content-none");
+		});
+	});
+</script>
+<style>
+.main-content{
+	position: relative !important;
+	top: 0;
+}
+.main-content-none,
+.right-content{
+	display: none;
+}
+.right-content {
+display: none !important;
+}
+
+
+</style>
+
 
 </body>
 

@@ -1,7 +1,5 @@
 @media only screen and (max-width:1500px){
-	.post-wrapper {
-		display: block;
-	}
+
 	.request-profile {
 		display: block !important;
 	}
@@ -55,10 +53,10 @@
 	h5 {
 		font-size: 1.1rem;
 	}
-	.post-left p,
+	/* .post-left p,
 	.post-right p {
 		padding-right: 10px;
-	}
+	} */
 }
 @media only screen and (max-width: 991px) {
 	.research-heading  {
@@ -79,25 +77,37 @@
 	.spnsor img {
 		max-width: 80px;
 	}
+	/* 8/17 */
+	.search-box {
+		width: 250px;
+
+	}
+	.left-sidebar ul li{
+		width: 100%;
+		max-width: 100%;
+	}
+	.p-p {
+		padding: 5px 4%;
+	}
+	.h4,
+	h4 {
+		font-size: 1.2rem;
+	}
+	#main h4,
+	.profile-top h5 {
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 1;
+	}
+}
+@media only screen and (min-width: 767px) and (max-width:991px){
+	.profile .star .review {
+		color: #08B5F6;
+		display: block;
+	}
 }
 @media only screen and (max-width: 767px) {
-	.left-menu-content {
-		position: absolute;
-		width: 90%;
-		max-width: 350px;
-		background: var(--bg-color);
-		box-shadow: 0px 0 10px rgba(0, 0, 0, 0.4);
-		border-radius: 4px;
-		overflow: hidden;
-		top: 108%;
-		right: 5%;
-		max-height: 0;
-		transition: max-height 0.3s;
-	}
 
-	.left-sm-menu-height {
-		max-height: 100vh;
-	}
 	.grid-3 {
 		grid-column: span 12;
 	}
@@ -114,6 +124,56 @@
 	.suggest-friend .request-btn {
 		width: 150px;
 	}
+
+	/* 17/8 */
+	.search-box {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		align-items: center;
+		justify-content: center;
+		padding: 0px 0px;
+		cursor: pointer;
+	}
+	.search-box input {
+		display: none;
+	}
+
+		/* 8/17 */
+
+		.header-sticky nav {
+			padding: 8px 3%;
+		}
+
+		.logo {
+			width: 45px;
+			margin-right: 20px;
+		}
+			.left-menu-content {
+				position: absolute;
+				width: 90%;
+				max-width: 350px;
+				background: var(--bg-color);
+				box-shadow: 0px 0 10px rgba(0, 0, 0, 0.4);
+				border-radius: 4px;
+				overflow: hidden;
+				top: 108%;
+				right: 5%;
+				max-height: 0;
+				transition: max-height 0.3s;
+			}
+
+			.left-sm-menu-height {
+				max-height: 100vh;
+			}
+			.grid-3.grid-lg-2.left-content.left-sm-menu-height {
+				display: block;
+			}
+
+			.grid-3.grid-lg-2.left-content {
+				display: none;
+			}
+
 }
 @media only screen and (max-width: 475px) {
 	.headerLogo form.lg-search {
@@ -141,5 +201,6 @@
 		margin-top: 1rem;
 		font-size: 14px;
 	}
+
 	
 }

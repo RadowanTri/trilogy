@@ -240,32 +240,12 @@
   font-size: 20px;
   color: #000;
 }
-/* .nt-area .item:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top:50px;
-  background: #080707;
-  color: #fff;
-  z-index: 111111111111;
-  padding: 4px 8px;
-  border-radius: 4px;
-  visibility: hidden;
-  overflow: hidden;
-
-}
-.nt-area .item.fb:before {
-  content: "Messanger";
-}
-.nt-area .item.fb:hover:before {
-  visibility: visible;
-} */
 .nt-area .item span{
   /* content: ""; */
   position: absolute;
   left: 0;
   top: 50px;
-  background: #080707;
+  background: #3399FF;
   color: #fff;
   z-index: 111111111111;
   padding: 4px 8px;
