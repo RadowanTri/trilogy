@@ -964,6 +964,21 @@
 		function settingsMenuToggle() {
 			settingsmenu.classList.toggle("setting-menu-height");
 		}
+		$(".home").click(function(){
+			$(".left-content").toggleClass("left-sm-menu-height");
+			$(".main-content").toggleClass("main-content-none");
+		});
+		if(window.innerWidth<=768) { 
+			let searchBtn = document.querySelector('#search-btn');
+			let searchBar = document.querySelector('.search-bar-container');
+			window.onscroll = () =>{
+				searchBtn.classList.remove('fa-times');
+				searchBar.classList.remove('active');
+			}
+			searchBtn.addEventListener('click', () =>{
+				searchBar.classList.toggle('active');
+			})
+		}
 		
 </script>
 
@@ -1018,29 +1033,27 @@
 
 </script>
 <script>
-	$(document).ready(function(){
-		$(".home").click(function(){
-		$(".left-content").toggleClass("left-sm-menu-height");
-		$(".main-content").toggleClass("main-content-none");
-		});
-	});
-	if () {
-		
-	}
-	let searchBtn = document.querySelector('#search-btn');
-	let searchBar = document.querySelector('.search-bar-container');
-	window.onscroll = () =>{
-	searchBtn.classList.remove('fa-times');
-	searchBar.classList.remove('active');
-	}
-	searchBtn.addEventListener('click', () =>{
-	// searchBtn.classList.toggle('fa-times');
-	searchBar.classList.toggle('active');
-	});
+	// $(document).ready(function(){
+	// 	$(".home").click(function(){
+	// 	$(".left-content").toggleClass("left-sm-menu-height");
+	// 	$(".main-content").toggleClass("main-content-none");
+	// 	});
+	// });
 
-	  if(window.innerWidth<=768) { 
-		  $(".navbar").on("click", function () { $('.navbar').toggle();
-	  	$('.navbar').addClass('fixed'); }); }
+	// let searchBtn = document.querySelector('#search-btn');
+	// let searchBar = document.querySelector('.search-bar-container');
+	// window.onscroll = () =>{
+	// searchBtn.classList.remove('fa-times');
+	// searchBar.classList.remove('active');
+	// }
+	// searchBtn.addEventListener('click', () =>{
+	// // searchBtn.classList.toggle('fa-times');
+	// searchBar.classList.toggle('active');
+	// });
+
+	//   if(window.innerWidth<=768) { 
+	// 	  $(".navbar").on("click", function () { $('.navbar').toggle();
+	//   	$('.navbar').addClass('fixed'); }); }
 </script>
 <style>
 .main-content{
