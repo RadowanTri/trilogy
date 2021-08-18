@@ -29,14 +29,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* background:#f0f2f5; */
   background: #ffffff;
   box-shadow: -1px -2px 2px #00000057;
   padding: 8px 5%;
 }
 
 .logo {
-  /* width: 160px; */
   width: 60px;
   margin-right: 45px;
 }
@@ -69,7 +67,6 @@
 }
 
 .search-box {
-  /* background: var(--bg-color); */
   background: #f0f2f5;
   width: 350px;
   border-radius: 20px;
@@ -78,9 +75,7 @@
   padding: 0px 15px;
 }
 
-/* .search-box img {
-  width: 18px;
-} */
+
 .search-box i {
   width: 18px;
 }
@@ -92,9 +87,7 @@
   outline: none;
   border: 0;
 }
-/* .search-box input::placeholder{
-  color: #000;
-} */
+
 .online {
   position: relative;
 }
@@ -241,7 +234,7 @@
   color: #000;
 }
 .nt-area .item span{
-  /* content: ""; */
+
   position: absolute;
   left: 0;
   top: 50px;
@@ -266,18 +259,100 @@
   color: #483f91;
 }
 
+.search-bar-container.active {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
 
+.search-bar-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  padding: .5rem 2rem;
+  background: #ffffff;
+  border-top: .1rem solid rgba(255, 255, 255, .2);
+  display: flex;
+  align-items: center;
+  z-index: 1001;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  visibility: hidden;
+}
+ .search-bar-container input#search-bar {
+   width: 100%;
+    background: #f0f2f5;
+    padding: 10px;
+    outline: none;
+    border: 0;
+   }
+ .search-bar-container label.fas.fa-search {
+     position: absolute;
+     right: 10%;
+     margin-bottom: 0px;
+     cursor: pointer;
+   }
+   .nt-area li.nav-bars{
+     display: none;
+   }
+   
 
+   @media only screen and (min-width: 767px) and (max-width:991px){
+
+    	/* 8/17 */
+	.search-box {
+		width: 250px;
+
+	}
+  }
 
 @media only screen and (max-width: 767px) {
 
  .headerMenu li {
    margin: 10px 0px;
  }
+ .search-bar-container {
+   visibility: visible;
+ }
+ .nt-area li.nav-bars{
+   display: block;
+ }
+ .search-box {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px;
+  cursor: pointer;
 
-
+}
+ 
+.d-109 {
+  display: block;
+}
 
 
 }
+@media only screen and (max-width: 575px) {
 
+  .nav-user-icon {
+    margin-left: 10px;
+}
+.nav-user-icon img,
+.nt-area .item {
+  width: 35px;
+  height: 35px;
+  max-width: 35px;
+}
+.logo {
+  margin-right: 15px !important;
+}
+
+}
+
+@media only screen and (max-width: 475px) {
+
+.nt-area li.sm-none{
+  display: none;
+}
+}
 /*  */

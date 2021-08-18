@@ -32,272 +32,127 @@
 
 <body>
 	<div class="header-sticky">
-	<nav>
-		<div class="nav-left">
+		<nav>
+			<div class="nav-left">
+				<a href="#"><img src="assets/img/logo-top.png" alt="" class="logo"></a>
 
-			<img src="assets/img/logo-top.png" alt="" class="logo">
-			<div class="search-box" id="search-btn">
-				<i class="fas fa-search"></i>
-				<input type="text" placeholder="search">
-			</div>
-			<form action="" class="search-bar-container active">
-				<input type="search" id="search-bar" placeholder="search">
-				<label for="search-bar" class="fas fa-search"></label>
-			</form>
-			
-
-		</div>
-		<div class="nav-right">
-			<ul class="nt-area">
-				<li>
-					<a href="#">
-						<div class="item home" onclick="leftMenuToggle()" id="hide">
-							<i class="fas fa-bars"></i>
-
-						</div>
-					</a>
-
-
-				</li>
-				<li>
-					<a href="#">
-						<div class="item home"> 
-						<!-- <div class="item home" onclick="leftMenuToggle()" id="hide">  -->
-							<i class="fas fa-home"></i>
-							<span>Home</span>
-							
-						</div>
-					</a>
-					<div class=" d-none">
-						<div class="left-sidebar">
-							<div class="imp-link">
-								<a href="#">
-									<img src="assets/img/news.png" alt="">
-									Latest News
-								</a>
-								<a href="#">
-									<img src="assets/img/friends.png" alt="">
-									Friends
-								</a>
-								<a href="#">
-									<img src="assets/img/group.png" alt="">
-									Group
-								</a>
-								<a href="#">
-									<img src="assets/img/marketplace.png" alt="">
-									Marketplace
-								</a>
-								<a href="#">
-									<img src="assets/img/watch.png" alt="">
-									Watch
-								</a>
-								<a href="#">
-									See More
-								</a>
-							</div>
-							<div class="shortcut-links">
-								<p>Your Shortcuts</p>
-								<a href="#">
-									<img src="assets/img/shortcut-1.png" alt="">
-									Web Developer
-								</a>
-								<a href="#">
-									<img src="assets/img/shortcut-2.png" alt="">
-									Web Design Course
-								</a>
-								<a href="#">
-									<img src="assets/img/shortcut-3.png" alt="">
-									Full Stack Developer
-								</a>
-								<a href="#">
-									<img src="assets/img/shortcut-4.png" alt="">
-									Website Experts
-								</a>
-							</div>
-
-						</div>
-						<div class="d-109 mt-30">
-							<div class="spnsor-wrapper">
-								<h4 class="mb-15 mt-10">Sponsor</h4>
-								<div class="spnsor">
-									<a href="#" class="d-flex align-items-center">
-										<img src="assets/img/status-4.png" alt="">
-										<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-									</a>
-								</div>
-								<div class="spnsor">
-									<a href="#" class="d-flex align-items-center">
-										<img src="assets/img/status-4.png" alt="">
-										<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-									</a>
-								</div>
-							</div>
-							<div class="friend-request mt-20">
-								<div class="d-flex justify-content-between p-10">
-									<h5>Friend Request</h5>
-									<a class="see-all" href="#">See All</a>
-								</div>
-								<div class="d-flex align-items-center request-profile">
-									<div>
-										<div class="profile-img mr-10">
-											<img src="assets/img/profile-pic.png" alt="">
-										</div>
-									</div>
-									<div class="flex-1">
-										<div class="d-flex justify-content-between">
-											<p>Radowan Bhuiyan</p>
-											<p>4 Day</p>
-										</div>
-										<div class="request-btn">
-											<ul class="btn-wrapper">
-												<li><button class="btn" type="submit">Confirm</button></li>
-												<li><button class="btn remove-btn" type="submit">Remove</button></li>
-											</ul>
-										</div>
-									</div>
-
-								</div>
-							</div>
-							<div class="suggest-friend friend-request mt-20">
-								<div class="d-flex justify-content-between p-10">
-									<h5>Suggest Friend</h5>
-									<a class="see-all" href="#">See All</a>
-								</div>
-								<div class="d-flex align-items-center justify-content-between  request-profile">
-									<div>
-
-										<div class="d-flex align-items-center">
-											<div class="profile-img mr-10">
-												<img src="assets/img/profile-pic.png" alt="">
-											</div>
-											<div>
-												<p>Radowan Bhuiyan</p>
-												<p>4 Day</p>
-											</div>
-
-										</div>
-									</div>
-									<div>
-
-										<div class="request-btn">
-											<ul class="btn-wrapper">
-												<li><button class="btn" type="submit">Suggest Friend</button></li>
-											</ul>
-										</div>
-									</div>
-
-								</div>
-							</div>
-							<div class="group mt-20">
-								<div class="d-flex justify-content-between p-10">
-									<h5>Group Conversion</h5>
-								</div>
-								<div class="d-flex align-items-center justify-content-between  request-profile">
-									<div>
-
-										<div class="d-flex align-items-center">
-											<div class="profile-img mr-10">
-												<img src="assets/img/profile-pic.png" alt="">
-											</div>
-											<div>
-												<p>Radowan Bhuiyan</p>
-											</div>
-										</div>
-									</div>
-
-								</div>
-							</div>
-
-						</div>
-					</div>
-
-				</li>
-
-				<li class="d-sm-none d-none d-md-block">
-					<a href="#">
-						<div class="item user"><i class="fas fa-users"></i><span>Group</span></div>
-
-					</a>
-				</li>
-
-
-				<li>
-					<a href="#">
-						<div class="item fb"><i class="fab fa-facebook-messenger"></i><span>Messenger</span></div>
-					</a>
-
-				</li>
-				<li>
-					<a href="#">
-						<div class="item fb"><i class="fas fa-tv"></i><span>Watch</span></div>
-					</a>
-
-				</li>
-				<li>
-					<a href="#">
-						<div class="item nt">
-							<i class="fas fa-bell"></i>
-							<span>Notification</span>
-						</div>
-
-					</a>
-				</li>
-			</ul>
-
-			
-
-			<div class="nav-user-icon online" onclick="settingsMenuToggle()">
-				<img src="assets/img/profile-pic.png" alt="">
+				
+				<div class="search-box" id="search-btn">
+					<i class="fas fa-search"></i>
+					<input type="text" placeholder="search">
+				</div>
+				<form action="" class="search-bar-container active">
+					<input type="search" id="search-bar" placeholder="search">
+					<label for="search-bar" class="fas fa-search"></label>
+				</form>
+				
 
 			</div>
+			<div class="nav-right">
+				<ul class="nt-area">
+					<li class="nav-bars">
+						<a href="#">
+							<div class="item bars">
+								<i class="fas fa-bars"></i>
 
-		</div>
-		<!---------------- setting ---------------->
-		<div class="setting-menu">
-			<div id="dark-btn">
-				<span></span>
-			</div>
-			<div class="setting-menu-inner">
-				<div class="user-profile">
-					<div>
-						<img src="assets/img/profile-pic.png" alt="">
-					</div>
-					<div>
-						<p>Radowan Bhuiyan</p>
-						<a href="#">See your profile</a>
-					</div>
-				</div>
-				<hr>
-				<div class="user-profile">
-					<div>
-						<img src="assets/img/feedback.png" alt="">
-					</div>
-					<div>
-						<p>Give feedback</p>
-						<a href="#">Help us to improve the new design</a>
-					</div>
-				</div>
-				<hr>
-				<div class="setting-links">
-					<img src="assets/img/setting.png" alt="" class="setting-icon">
-					<a href="#">Setting & Privacy <img src="assets/img/arrow.png" width="10px" alt=""></a>
-				</div>
-				<div class="setting-links">
-					<img src="assets/img/help.png" alt="" class="setting-icon">
-					<a href="#">Help & Supports <img src="assets/img/arrow.png" width="10px" alt=""></a>
-				</div>
-				<div class="setting-links">
-					<img src="assets/img/display.png" alt="" class="setting-icon">
-					<a href="#">Display & Accssibility <img src="assets/img/arrow.png" width="10px" alt=""></a>
-				</div>
-				<div class="setting-links">
-					<img src="assets/img/logout.png" alt="" class="setting-icon">
-					<a href="#">Logout<img src="assets/img/arrow.png" width="10px" alt=""></a>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="item home"> 
+								<i class="fas fa-home"></i>
+								<span>Home</span>
+								
+							</div>
+						</a>
+					</li>
+
+					<li class="sm-none">
+						<a href="#">
+							<div class="item user"><i class="fas fa-users"></i><span>Group</span></div>
+
+						</a>
+					</li>
+
+
+					<li>
+						<a href="#">
+							<div class="item fb"><i class="fab fa-facebook-messenger"></i><span>Messenger</span></div>
+						</a>
+
+					</li>
+					<li class="sm-none">
+						<a href="#">
+							<div class="item fb"><i class="fas fa-tv"></i><span>Watch</span></div>
+						</a>
+
+					</li>
+					<li>
+						<a href="#">
+							<div class="item nt">
+								<i class="fas fa-bell"></i>
+								<span>Notification</span>
+							</div>
+
+						</a>
+					</li>
+				</ul>
+
+				
+
+				<div class="nav-user-icon online" onclick="settingsMenuToggle()">
+					<img src="assets/img/profile-pic.png" alt="">
+
 				</div>
 
 			</div>
-		</div>
-	</nav>
+			<!---------------- setting ---------------->
+			<div class="setting-menu">
+				<div id="dark-btn">
+					<span></span>
+				</div>
+				<div class="setting-menu-inner">
+					<div class="user-profile">
+						<div>
+							<img src="assets/img/profile-pic.png" alt="">
+						</div>
+						<div>
+							<p>Radowan Bhuiyan</p>
+							<a href="#">See your profile</a>
+						</div>
+					</div>
+					<hr>
+					<div class="user-profile">
+						<div>
+							<img src="assets/img/feedback.png" alt="">
+						</div>
+						<div>
+							<p>Give feedback</p>
+							<a href="#">Help us to improve the new design</a>
+						</div>
+					</div>
+					<hr>
+					<div class="setting-links">
+						<img src="assets/img/setting.png" alt="" class="setting-icon">
+						<a href="#">Setting & Privacy <img src="assets/img/arrow.png" width="10px" alt=""></a>
+					</div>
+					<div class="setting-links">
+						<img src="assets/img/help.png" alt="" class="setting-icon">
+						<a href="#">Help & Supports <img src="assets/img/arrow.png" width="10px" alt=""></a>
+					</div>
+					<div class="setting-links">
+						<img src="assets/img/display.png" alt="" class="setting-icon">
+						<a href="#">Display & Accssibility <img src="assets/img/arrow.png" width="10px" alt=""></a>
+					</div>
+					<div class="setting-links">
+						<img src="assets/img/logout.png" alt="" class="setting-icon">
+						<a href="#">Logout<img src="assets/img/arrow.png" width="10px" alt=""></a>
+					</div>
+
+				</div>
+			</div>
+		</nav>
 	</div>
 
 	<div class="p-p" id="show">
@@ -964,10 +819,7 @@
 		function settingsMenuToggle() {
 			settingsmenu.classList.toggle("setting-menu-height");
 		}
-		$(".home").click(function(){
-			$(".left-content").toggleClass("left-sm-menu-height");
-			$(".main-content").toggleClass("main-content-none");
-		});
+		
 		if(window.innerWidth<=768) { 
 			let searchBtn = document.querySelector('#search-btn');
 			let searchBar = document.querySelector('.search-bar-container');
@@ -977,101 +829,13 @@
 			}
 			searchBtn.addEventListener('click', () =>{
 				searchBar.classList.toggle('active');
-			})
+			});
+			$(".bars").click(function(){
+				$(".left-content").toggleClass("left-sm-menu-height");
+				$(".main-content").toggleClass("main-content-none");
+			});
 		}
-		
 </script>
-
-
-<script>
-	// var leftMenu = document.querySelector(".left-content");
-	// function leftMenuToggle() {
-	// leftMenu.classList.toggle("left-sm-menu-height");
-	// leftMenu.classList.remove(".main-content");
-	// }
-
-	// function leftMenuToggle() {
-	// 	leftMenu.classList.toggle("left-sm-menu-height");
-	// 	leftMenu.classList.remove(".main-content");
-		// $(".main-content").toggle("left-sm-menu-height");
-		// $(".main-content").css("display", "none");
-		// leftMenu.classList.remove("left-sm-menu-height");
-	// }
-	
-	// $('.home').click(function(e) {
-	// $('.home').removeClass('left-content');
-	// $(this).addClass('left-content');
-	// });
-
-		// function leftMenuToggle() {
-		// leftMenu.classList.remove("left-sm-menu-height");
-		// $(".main-content").css("display", "block");
-		// }
-	// $(document).ready(function () {
-	// $("#menu").click(function () {
-	// $(".dropdown_menu").toggle();
-	// $(".menu_content").css("display", "none");
-	// });
-	// });
-	// $(".left-content").on("click", function () {
-	// $('.left-content').toggle();
-	// $('.left-content').addClass('left-sm-menu-height');
-	// $('.left-content').remove('left-sm-menu-height');
-	// });
-	// var leftMenu = document.querySelector(".left-menu-content");
-
-	// function leftMenuToggle() {
-	// 	leftMenu.classList.toggle("left-sm-menu-height");
-	// }
-	// var mainMenu = document.querySelector(".main-menu");
-
-	// function leftMenuToggle() {
-	// main.remove.toggle("main-remove");
-	// }
-//   $('.left-menu-content').show();
-//   $('.main-content').hide();
-
-</script>
-<script>
-	// $(document).ready(function(){
-	// 	$(".home").click(function(){
-	// 	$(".left-content").toggleClass("left-sm-menu-height");
-	// 	$(".main-content").toggleClass("main-content-none");
-	// 	});
-	// });
-
-	// let searchBtn = document.querySelector('#search-btn');
-	// let searchBar = document.querySelector('.search-bar-container');
-	// window.onscroll = () =>{
-	// searchBtn.classList.remove('fa-times');
-	// searchBar.classList.remove('active');
-	// }
-	// searchBtn.addEventListener('click', () =>{
-	// // searchBtn.classList.toggle('fa-times');
-	// searchBar.classList.toggle('active');
-	// });
-
-	//   if(window.innerWidth<=768) { 
-	// 	  $(".navbar").on("click", function () { $('.navbar').toggle();
-	//   	$('.navbar').addClass('fixed'); }); }
-</script>
-<style>
-.main-content{
-	position: relative !important;
-	top: 0;
-}
-.main-content-none,
-.right-content{
-	display: none;
-}
-/* .right-content {
-display: none !important;
-} */
-
-
-</style>
-
-
 </body>
 
 </html>
