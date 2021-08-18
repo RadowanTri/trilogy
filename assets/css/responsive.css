@@ -85,6 +85,13 @@
 		color: #08B5F6;
 		display: block;
 	}
+
+	.request-profile {
+		flex-direction: column;
+	}
+	.request-profile .profile-img{
+		margin-bottom: 10px;
+	}
 }
 @media only screen and (max-width: 767px) {
 

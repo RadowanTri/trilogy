@@ -12,7 +12,8 @@ html {
   height: 100%;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #1E2831;
@@ -93,10 +94,10 @@ p {
   line-height: 1.5;
   color: #36454F;
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .btn {
-  font-family: 'Roboto', sans-serif;
   display: inline-block;
   padding: 10px 30px;
   color: #fff;
@@ -1211,3 +1212,6 @@ p {
     display: none;
 }
 
+.profile .star .review {
+  font-size: 14px;
+}
