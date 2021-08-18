@@ -1024,6 +1024,9 @@
 		$(".main-content").toggleClass("main-content-none");
 		});
 	});
+	if () {
+		
+	}
 	let searchBtn = document.querySelector('#search-btn');
 	let searchBar = document.querySelector('.search-bar-container');
 	window.onscroll = () =>{
@@ -1034,6 +1037,10 @@
 	// searchBtn.classList.toggle('fa-times');
 	searchBar.classList.toggle('active');
 	});
+
+	  if(window.innerWidth<=768) { 
+		  $(".navbar").on("click", function () { $('.navbar').toggle();
+	  	$('.navbar').addClass('fixed'); }); }
 </script>
 <style>
 .main-content{
@@ -1044,9 +1051,9 @@
 .right-content{
 	display: none;
 }
-.right-content {
+/* .right-content {
 display: none !important;
-}
+} */
 
 
 </style>
